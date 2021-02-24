@@ -1,0 +1,89 @@
+x=15
+
+if x>=10:
+  print(x)
+
+##if 조건문 1:
+## 조건문1이 True일때 실행되는 코드
+##elif 조건문 2:
+## 조건문 1에 해당하지 않고 조건문 2가 True 일때 실행되는 코드
+##else:
+## 위의 모든 조건문이 모두 True 값이 아닐 때 사용되는 코드
+
+score=85
+if score>=90:
+  print("학점  : A")
+elif score>=80:
+  print("학점 : B")
+elif score>=70:
+  print("학점  : C")
+else:
+  print("학점  : F")
+
+if score>=70:
+  print('성적이 70 이상입니다.')
+  if score>=90:
+    print('우수한 성적입니다.')
+else:
+  print('성적이 70점 미만입니다.')
+  print('조금더 분발 하세요.')
+print('프로그램을 종료합니다.')
+
+##비교연산자
+##X==Y : X와 Y가 서로 같을 때 참(True)
+##X!=Y : X와 Y가 서로 다를 때 참(True)
+##X>Y  : X와 Y가 서로 클 때 참(True)     
+##X<Y  : X와 Y가 서로 작을 때 참(True)
+##X>=Y : X와 Y가 서로 크거나 같을 때 참(True)
+##x<=Y : X와 Y가 서로 작거나 같을 때 참(True)
+
+<논리 연산자>
+1)X and Y : X와 Y가 모두 참(True) 일때 참True)
+2)X or Y : X와 Y중 하나만 참(True)이어도 참(True)
+3)not X : X가 거짓(False)일때 참(True)
+
+<기타 연산자>
+1)X in 리스트 : 리스트 안에 x가 들어가 있을 때 참(True)이다.
+2)X not in 문자열 : 문자열 안에 x가 들어가 있지 않을 때 참(True)이다.
+
+
+score =85
+if score>=80:
+  pass ##아무것도 처리하고 싶지 않을 때 사용
+else:
+  print('성적이 80점 미만입니다.')
+print('프로그램을 종료합니다.')
+ 
+ <조건부 표현식>
+ #1
+ score = 85
+ result ="Success" if score>=80 else "fail"
+ print(result)
+ #2
+a=[1,2,3,4,5,5,5]
+remove_set{3,5}
+result = [i for i in a if i not in remove_set]
+print(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
